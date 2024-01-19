@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "jit"
+version = "0.1.0"
+description = ""
+authors = ["jorgebarcelos <jorgebarcelos.faria@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numba = "^0.58.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
